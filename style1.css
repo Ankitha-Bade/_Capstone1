@@ -3,6 +3,8 @@
     background-color: #a8efff;
     color: #0e00fe;
     font-family: 'Caveat Brush', cursive;
+    margin: 0px;
+    padding: 0px;
 }
 
 .bar ul{
@@ -10,6 +12,15 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    background-color: #75E6FF;
+    height: 80px;
+    padding: 0px;
+}
+
+.bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 a{
@@ -19,7 +30,7 @@ a{
     font-size: 30px;
     background-color: #9affd3;
     font-family: 'Amatic SC', cursive;
-
+    padding: 5px;
 }
 
 .button{
@@ -40,6 +51,7 @@ a{
 
 #why p{
     font-size: 35px;
+    text-align: center;
 }
 
 .droplet{
